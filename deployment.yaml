@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: gcr.io/s5231610/tomcat:tagversion
+        image: kabil/kube8s:tagversion
         ports:
         - containerPort: 8080
 ---
