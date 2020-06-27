@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: kabil/kube8s:tagversion
+        image: kabildockers/kube8s:tagversion
         ports:
         - containerPort: 8080
 ---
